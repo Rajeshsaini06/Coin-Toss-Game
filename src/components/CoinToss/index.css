@@ -1,0 +1,69 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+}
+img {
+  height: 150px;
+  width: 150px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  background-color: #ffffff;
+  min-width: 400px;
+  border-radius: 8px;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 40px;
+}
+
+button {
+  background-color: #ffda6f;
+  color: #a35200;
+  font-size: 12px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 20px;
+  height: 30px;
+  width: 100px;
+}
+
+h1 {
+  color: #a35200;
+}
+
+.paragraph {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 576px) {
+  .bottom-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    margin: 40px;
+  }
+}
